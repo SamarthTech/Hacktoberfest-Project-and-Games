@@ -1,6 +1,8 @@
-# HacktoberFest 2023 `GOOD FIRST` Pull Request - `Digital Rewards`🎉
+# HacktoberFest 2023 by `Abhigyan`🎉
 
 ![HacktoberFest 2023](https://github.com/ossamamehmood/Hacktoberfest2023/raw/main/.github/logo.png)
+
+## This is my own fork of the SamarthTech Hacktober fest Repository, intending to upload my own projects which I have completed. 
 
 # The Open Source Adventure Awaits! 🗺️
 
@@ -50,5 +52,3 @@ Welcome! We're excited to have you on board. Follow the steps below to contribut
 ## Wait for Pull Request to merge
 
 ## Celebrate - you've done your first pull request!!
-
-## + Follow US on samarthtmsl.live : Swift Approval of Your Quest 🚀
