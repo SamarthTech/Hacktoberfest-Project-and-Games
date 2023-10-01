@@ -1,4 +1,5 @@
-# A Python program which takes data from user's clipboard, Parses it for all Email addresses and Phone Numbers , Writes them to separate files and copies the entire data to the clipboard
+# A Python program which takes data from user's clipboard, Parses it for all Email addresses and Phone Numbers.
+#Writes them to separate files and copies the entire data to the clipboard.
 import re,pyperclip,pprint
 PhoneFile = open("Phone.txt", "a+")
 EmailFile = open("Email.txt", "a+")
