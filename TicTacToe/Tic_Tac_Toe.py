@@ -90,22 +90,22 @@ try:
                             '''
                             if Sound==True:
                                 playsound('Win.wav')
-                            quit()
                             '''
+                            quit()
                         elif check==2 and y!=1:
                             print(" It is a draw")
                             '''
                             if Sound==True:
                                 playsound('boing.mp3')
-                            quit()
                             '''
+                            quit()
                     else:
                         print("Place is occupied")
                         '''
                         if Sound==True:
                             playsound('program_error.mp3')
-                        continue
                         '''
+                        continue
                 else:
                     print("Enter value of x in between 1-9")
                     continue
