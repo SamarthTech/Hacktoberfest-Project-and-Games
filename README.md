@@ -2,6 +2,8 @@
 
 ![HacktoberFest 2023](https://github.com/ossamamehmood/Hacktoberfest2023/raw/main/.github/logo.png)
 
+## This is my own fork of the SamarthTech Hacktober fest Repository, intending to upload my own projects which I have completed. 
+
 # The Open Source Adventure Awaits! 🗺️
 
 🌐 HacktoberFest is your gateway to the vibrant world of open source. This year marks the 10th anniversary of Hacktoberfest, and we’re calling on your support! Join us on this epic journey and earn yourself an exclusive digital reward kit from DigitalOcean and our sponsors and partners..
@@ -50,5 +52,3 @@ Welcome! We're excited to have you on board. Follow the steps below to contribut
 ## Wait for Pull Request to merge
 
 ## Celebrate - you've done your first pull request!!
-
-## This is my own fork of the SamarthTech Hacktober fest Repository, intending to upload my own projects which I have completed. 
