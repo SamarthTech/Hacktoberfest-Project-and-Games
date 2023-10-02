@@ -1,4 +1,4 @@
-# HacktoberFest 2023 by `Abhigyan`🎉
+# HacktoberFest 2023 by🎉
 
 ![HacktoberFest 2023](https://github.com/ossamamehmood/Hacktoberfest2023/raw/main/.github/logo.png)
 
