@@ -1,0 +1,165 @@
+.bottomBarHidden { opacity: 0; }
+.bottomBar-animation {
+	-webkit-transition: opacity 250ms linear;
+	-moz-transition: opacity 250ms linear;
+	-o-transition: opacity 250ms linear;
+	-ms-transition: opacity 250ms linear;
+	transition: opacity 250ms linear;
+	
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	
+	opacity: 1;
+}
+
+.timeIsUp-animation {
+	-webkit-transition: background-color 20s linear;
+	-moz-transition: background-color 20s linear;
+	-o-transition: background-color 20s linear;
+	transition: background-color 20s linear;
+	
+	background-color: #6E0000;
+}
+
+@-webkit-keyframes CELL-DISAPPEAR {
+	100% {
+		-webkit-transform: scaleX(0) scaleY(0);
+		opacity: 0;
+	}
+}
+@-moz-keyframes CELL-DISAPPEAR {
+	100% {
+		-moz-transform: scaleX(0) scaleY(0);
+		opacity: 0;
+	}
+}
+@-o-keyframes CELL-DISAPPEAR {
+	100% {
+		-o-transform: scaleX(0) scaleY(0);
+		opacity: 0;
+	}
+}
+@keyframes CELL-DISAPPEAR {
+	100% {
+		transform: scaleX(0) scaleY(0);
+		opacity: 0;
+	}
+}
+
+.cell-disappear-animation {
+	-webkit-animation: CELL-DISAPPEAR 0.3s ease-out 0s 1 normal;
+	-moz-animation: CELL-DISAPPEAR 0.3s ease-out 0s 1 normal;
+	-o-animation: CELL-DISAPPEAR 0.3s ease-out 0s 1 normal;
+	animation: CELL-DISAPPEAR 0.3s ease-out 0s 1 normal;
+	
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes EPIC-FIRE-ANIMATION {
+	0%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+	33% {
+		text-shadow: 2px -1px 9px #fefcc9, 4px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -19px 20px #ec760c, -8px -27px 30px #cd4606, -2px -42px 30px #973716, 2px -47px 36px #451b0e;
+		color: #E6E1F0;
+	}
+	66% {
+		text-shadow: -2px 0 10px #fefcc9, 7px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -18px 25px #ec760c, -12px -26px 30px #cd4606, 3px	-35px 32px #973716, 0 -42px 40px #451b0e;
+		color: #DCD5ED;
+	}
+	100%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+}
+@-moz-keyframes EPIC-FIRE-ANIMATION {
+	0%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+	33% {
+		text-shadow: 2px -1px 9px #fefcc9, 4px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -19px 20px #ec760c, -8px -27px 30px #cd4606, -2px -42px 30px #973716, 2px -47px 36px #451b0e;
+		color: #E6E1F0;
+	}
+	66% {
+		text-shadow: -2px 0 10px #fefcc9, 7px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -18px 25px #ec760c, -12px -26px 30px #cd4606, 3px	-35px 32px #973716, 0 -42px 40px #451b0e;
+		color: #DCD5ED;
+	}
+	100%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+}
+@-o-keyframes EPIC-FIRE-ANIMATION {
+	0%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+	33% {
+		text-shadow: 2px -1px 9px #fefcc9, 4px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -19px 20px #ec760c, -8px -27px 30px #cd4606, -2px -42px 30px #973716, 2px -47px 36px #451b0e;
+		color: #E6E1F0;
+	}
+	66% {
+		text-shadow: -2px 0 10px #fefcc9, 7px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -18px 25px #ec760c, -12px -26px 30px #cd4606, 3px	-35px 32px #973716, 0 -42px 40px #451b0e;
+		color: #DCD5ED;
+	}
+	100%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+}
+@keyframes EPIC-FIRE-ANIMATION {
+	0%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+	33% {
+		text-shadow: 2px -1px 9px #fefcc9, 4px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -19px 20px #ec760c, -8px -27px 30px #cd4606, -2px -42px 30px #973716, 2px -47px 36px #451b0e;
+		color: #E6E1F0;
+	}
+	66% {
+		text-shadow: -2px 0 10px #fefcc9, 7px -5px 15px #feec85, -12px -11px 20px #ffae34, 12px -18px 25px #ec760c, -12px -26px 30px #cd4606, 3px	-35px 32px #973716, 0 -42px 40px #451b0e;
+		color: #DCD5ED;
+	}
+	100%   {
+		text-shadow: 0 0 10px #fefcc9, 5px -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c, -10px -30px 30px #cd4606, 0	-40px 35px #973716, 5px -45px 40px #451b0e;
+		color: #E9E4F5;
+	}
+}
+
+.fire-animation {
+    -webkit-animation: EPIC-FIRE-ANIMATION 0.3s linear 0s infinite normal;
+    -moz-animation: EPIC-FIRE-ANIMATION 0.3s linear 0s infinite normal;
+    -o-animation: EPIC-FIRE-ANIMATION 0.3s linear 0s infinite normal;
+    animation: EPIC-FIRE-ANIMATION 0.3s linear 0s infinite normal;
+}
+
+@-webkit-keyframes CELL-MOVE-IN {
+	0% { -webkit-transform: translate(0px, -600px); }
+	100% { -webkit-transform: translate(0px, 0px); }
+}
+@-moz-keyframes CELL-MOVE-IN {
+	0% { -moz-transform: translate(0px, -600px); }
+	100% { -moz-transform: translate(0px, 0px); }
+}
+@-o-keyframes CELL-MOVE-IN {
+	0% { -o-transform: translate(0px, -600px); }
+	100% { -o-transform: translate(0px, 0px); }
+}
+@keyframes CELL-MOVE-IN {
+	0% { transform: translate(0px, -600px); }
+	100% { transform: translate(0px, 0px); }
+}
+
+.cell-move-in-animation {
+	-webkit-animation: CELL-MOVE-IN 0.3s ease-out 0s 1 normal;
+	-moz-animation: CELL-MOVE-IN 0.3s ease-out 0s 1 normal;
+	-o-animation: CELL-MOVE-IN 0.3s ease-out 0s 1 normal;
+	animation: CELL-MOVE-IN 0.3s ease-out 0s 1 normal;
+}

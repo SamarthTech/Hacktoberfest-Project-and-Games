@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<title>MAHJONG GAME by DEEPRA</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" type="text/css" href="animations.css">
+		<script src="myscript.js"></script>
+		
+		<meta name="author" content="Leonidas Tsekouras">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1 id="title" class="fire-animation">MAHJONG TITANS</h1>
+		<div id="startscreenDiv">
+			<p>Choose settings and press the button to play!</p>
+			
+			<div id="textContainer">
+				<div id="textLeft">
+					<!-- Settings -->
+					<br />Board size: &nbsp;&nbsp;&nbsp;1 <input type="range" id="sizeSlider" min="2" max="6" style="width: 128px;" onchange="gimmeTitle();" /> 5
+					<br />Difficulty: EASY <input type="range" id="difficultySlider" min="1" max="3" style="width: 128px;" onchange="gimmeTitle();" /> HARD
+				</div>
+			</div>
+			<br /><input type="button" style="margin-top: 10px;" value="PLAY NOW" onclick="startGame();" />
+		</div>
+		
+		<div id="divTable">
+		</div>
+		<div id="container">
+			<div id="bottomBar" class="bottomBarHidden">
+				<span id="nGButton"></span>
+				<span id="correctMovesCounter"></span>
+				<span id="wrongMovesCounter"></span>
+				<span id="timeCounter"></span>
+			</div>
+		</div>
+
+		<span id="leCreatorName">By DEEPRA MAZUMDER</span>
+	</body>
+</html>
