@@ -1,8 +1,6 @@
-# HacktoberFest 2023 by🎉
+# HacktoberFest 2023🎉
 
 ![HacktoberFest 2023](https://github.com/ossamamehmood/Hacktoberfest2023/raw/main/.github/logo.png)
-
-## This is my own fork of the SamarthTech Hacktober fest Repository, intending to upload my own projects which I have completed. 
 
 # The Open Source Adventure Awaits! 🗺️
 
