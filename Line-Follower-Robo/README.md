@@ -1,5 +1,5 @@
 # Line Follower Bots
-<img height=240 width=250 src="/img/robo2.jpg" alt="robocar">
+<img height=240 width=250 src="./img/robo2.jpg" alt="robocar">
 <br>
 
 # Parts Required For Building The Bot:-
