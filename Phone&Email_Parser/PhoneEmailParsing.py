@@ -4,8 +4,8 @@ import re,pyperclip,pprint
 PhoneFile = open("Phone.txt", "a+")
 EmailFile = open("Email.txt", "a+")
 EmailRegex=re.compile(r'[a-zA-Z0-9.+_]+\@[a-zA-Z0-9.+_]+')
-PhoneRegex=re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') # for US
-#PhoneRegex=re.compile(r'((\+\d\d)*-*(\d\d\d\d\d\d\d\d\d\d))' ) # for India 
+#PhoneRegex=re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') # for US
+PhoneRegex=re.compile(r'\+91\d{10}') # for India 
 Text=pyperclip.paste()
 ExtractedPhone=PhoneRegex.findall(Text)
 ExtractedEmail=EmailRegex.findall(Text)
