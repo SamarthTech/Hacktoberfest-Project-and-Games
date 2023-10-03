@@ -1,7 +1,7 @@
 # Obstacle-Avoiding-Robo
 
 
-<img src="./img/Obsatacle-robo.jpg" align="left" height="220" width="350">
+<img src="./img/Obsatacle-robo (2).jpg" align="left" height="220" width="350">
 
 
 <br>
