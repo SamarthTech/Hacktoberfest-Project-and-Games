@@ -1,2 +1,0 @@
-Only Pygame needs to be installed. Simply run this command on the terminal:
-pip install pygame
